@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="game.css">
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Tic Tac Toe</h1>
+    </header>
+
+    <main>
+        <div id="top-row" class="row">
+            <h3 id="winner-display"></h3>
+        </div>
+
+        <div id="middle-row" class="row">
+            <div class="player-card" id="player1">
+                <h3 id="player1-name" class="player-name">Player 1</h3>
+                <p id="player1-sign" class="player-sign">X</p>
+            </div>
+
+            <div id="board"></div>
+
+            <div class="player-card" id="player2">
+                <h3 id="player2-name" class="player-name">Player 2</h3>
+                <p id="player2-sign" class="player-sign">O</p>
+            </div>
+        </div>
+
+        <div id="bottom-row" class="row">
+            <button id="restart">Restart</button>
+        </div>
+    </main>
+
+    <script src="game.js"></script>
+</body>
+
+</html>
