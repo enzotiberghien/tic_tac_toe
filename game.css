@@ -113,3 +113,10 @@ main {
     box-shadow: -1px 0px 15px 2px #00092C;
     transition: 0.25s;
 }
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
